@@ -51,20 +51,40 @@ body{
 .top-cards{
     background: #f0f0f0;
     display: grid;
+    grid-template-columns: repeat(3,max-content);
     gap: 20px;
-    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    padding: 74px 0;
+    
 }
 .top-card{
+    padding: 26px 26px 34px;
     display: flex;
     flex-direction: column;
     align-items:center;
     background: #ffffff;
-    box-shadow: 0px 4px 20px rgba(0,0,0,0);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0,23);
+}
+.top-card-image{
+    display: block;
+    margin-bottom: 26px;
+}
+.top-card-description{
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 300px;
 }
 @media screen and (max-width: 414px) {
     .main-banner-desktop{
         display: none;
     } 
+}
+@media screen and (max-width: 768px) {
+    .top-cards{
+        grid-template-columns: 1fr;
+        padding: 36px 26px;
+    }
 }
 @media screen and (min-width: 415px) {
     .main-banner-mobile{
@@ -91,6 +111,12 @@ body{
     margin-bottom: 20px;
     font-size: 28px;
 }
+}
+@media screen and (min-width: 769) and (max-width: 1200) {
+    .top-cards{
+        grid-template-columns: repeat(2,max-content);
+        padding: 36px 26px;
+    }
 }
 @media screen and (min-width: 993px) and (max-width: 1280px) {
         .top-infocard-text {
