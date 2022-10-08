@@ -18,7 +18,8 @@ body{
     display: block;
 
 }
-.main-banner{
+.main-banner, .mid-banner{
+    display: block;
     width: 100%;
 }
 .top-infocard  {
@@ -76,7 +77,7 @@ body{
     max-width: 300px;
 }
 @media screen and (max-width: 414px) {
-    .main-banner-desktop{
+    .main-banner-desktop, .mid-banner-desktop{
         display: none;
     } 
 }
@@ -87,7 +88,7 @@ body{
     }
 }
 @media screen and (min-width: 415px) {
-    .main-banner-mobile{
+    .main-banner-mobile, .mid-banner-desktop{
         display: none;
     }
 }
