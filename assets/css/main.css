@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Page-Header{
+        /* Rectangle 12 */
+        display: flex;
+        justify-content: center;
+        padding: 28px 0;
+        background: #000000;
+}
+.Header-Logo{
+    display: block;
+}
