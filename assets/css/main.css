@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+}
 .Page-Header{
         /* Rectangle 12 */
         display: flex;
@@ -15,7 +19,34 @@
 
 }
 .main-banner{
-        width: 100%;
+    width: 100%;
+}
+.top-infocard  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 0 96px;
+}
+.top-infocard-text{
+    margin-right: 124px;
+    max-width: 766px;
+}
+.top-infocard-subtitle{
+    /* Lorem ipsum */
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 400;
+    /* identical to box height, or 250% */
+}
+.top-infocard-title{
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 500;
+}
+.top-infocard-description{
+    font-size: 16px;
+    line-height: 24px;
 }
 @media screen and (max-width: 414px) {
     .main-banner-desktop{
@@ -26,4 +57,32 @@
     .main-banner-mobile{
         display: none;
     }
+}
+@media  screen and (max-width: 992px) {
+    .top-infocard{
+    flex-direction: column;
+    padding: 84px 26px 158px;
+}
+.top-infocard-text{
+    margin-right: 0 0 68px;
+}
+.top-infocard-subtitle{
+    font-size: 20px;
+}
+.top-infocard-image{
+    margin: 68px 88px 158px;
+    width: 100%;
+    max-width: 240px;
+}
+.top-infocard-title{
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+}
+@media screen and (min-width: 993px) and (max-width: 1280px) {
+        .top-infocard-text {
+            max-width: 520px;
+            margin-right: 70px;
+
+        }
 }
