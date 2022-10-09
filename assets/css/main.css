@@ -224,6 +224,7 @@ body{
     padding: 80px 0 136px;
 }
 .bottom-inforcard-img{
+    max-width: 596px;
     margin: 0 0 50px;
 }
 .bottom-infocard-description{
