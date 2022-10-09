@@ -120,6 +120,7 @@ body{
 }
 .bottom-inforcard-img{
     width: 100%;
+    max-width: 596px;
     margin-right: 40px;
 }
 .bottom-infocard-title{
@@ -139,10 +140,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1920px;
-    height: 128px;
-    left: 0px;
-    top: 4054px;
 
     background: #000000;
 }
@@ -228,7 +225,6 @@ body{
 }
 .bottom-inforcard-img{
     margin: 0 0 50px;
-    max-width: 596px;
 }
 .bottom-infocard-description{
     padding: 0 26px;
