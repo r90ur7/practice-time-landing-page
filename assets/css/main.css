@@ -109,13 +109,35 @@ body{
     line-height: 24px;
     max-width: 300px;
 }
+.bottom-infocard{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 142px 0  180px;
+}
+.infocad-text{
+    max-width: 550px;
+}
+.bottom-inforcard-img{
+    margin-right: 40px;
+}
+.bottom-infocard-title{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1px;
+    margin-bottom: 18px;
+}
+.bottom-infocard-description{
+    font-size: 16px;
+    line-height: 24px;
+}
 @media screen and (max-width: 414px) {
     .main-banner-desktop, .mid-banner-desktop{
         display: none;
     } 
 }
 @media screen and (min-width: 415px) {
-    .main-banner-mobile, .mid-banner-desktop{
+    .main-banner-mobile, .mid-banner-mobile{
         display: none;
     }
 }
@@ -159,6 +181,21 @@ body{
     margin-bottom: 20px;
     font-size: 28px;
 }
+.bottom-infocard{
+    flex-direction: column;
+    padding: 80px 0 136px;
+}
+.bottom-inforcard-img{
+    max-width: 100%;
+    margin: 0 0 50px;
+    max-width: 596px;
+}
+.bottom-infocard-description{
+    padding: 0 26px;
+}
+.bottom-infocard-title{
+    font-size: 24px;
+}
 }
 @media screen and (min-width: 769) and (max-width: 1200) {
     .top-cards{
@@ -179,6 +216,11 @@ body{
         .top-infocard-text {
             max-width: 520px;
             margin-right: 70px;
-
+        }
+        .bottom-inforcard-img{
+            max-width: 480px;
+        }
+        .bottom-infocard-description{
+            max-width: 400px;
         }
 }
