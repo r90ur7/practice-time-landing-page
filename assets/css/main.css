@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+}
+.Page-Header{
+        /* Rectangle 12 */
+        display: flex;
+        justify-content: center;
+        padding: 28px 0;
+        background: #000000;
+}
+.Header-Logo{
+    display: block;
+
+}
+.main-banner, .mid-banner{
+    display: block;
+    width: 100%;
+}
+.botom-cards{
+    margin-top: 140px;
+    background:linear-gradient(180deg, #00C8FF 0%, #15ACD6 100%);
+}
+.div-wrapper{
+    justify-content: center;
+    gap: 20px;
+    padding: 36px 32px 66px;
+    display: grid;
+    grid-template-columns: repeat(2,max-content);
+    position: relative;
+    top: -60px;
+}
+.botom-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0,23);
+}
+.botom-card-image{
+    display: block;
+    margin-bottom: 16px;
+}
+.botom-card-description{
+    max-width: 368px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    text-align: center;
+}
+.top-infocard  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 0 96px;
+}
+.top-infocard-text{
+    margin-right: 124px;
+    max-width: 766px;
+}
+.top-infocard-subtitle{
+    /* Lorem ipsum */
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 400;
+    /* identical to box height, or 250% */
+}
+.top-infocard-title{
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 500;
+}
+.top-infocard-description{
+    font-size: 16px;
+    line-height: 24px;
+}
+.top-cards{
+    background: #f0f0f0;
+    display: grid;
+    grid-template-columns: repeat(3,max-content);
+    gap: 20px;
+    justify-content: center;
+    padding: 74px 0;
+    
+}
+.top-card{
+    padding: 26px 26px 34px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0,23);
+}
+.top-card-image{
+    display: block;
+    margin-bottom: 26px;
+}
+.top-card-description{
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 300px;
+}
+.bottom-infocard{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 142px 0  180px;
+}
+.infocad-text{
+    max-width: 550px;
+}
+.bottom-inforcard-img{
+    width: 100%;
+    max-width: 596px;
+    margin-right: 40px;
+}
+.bottom-infocard-title{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1px;
+    margin-bottom: 18px;
+}
+.bottom-infocard-description{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.rodapé{
+    padding: 38px 0;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #000000;
+}
+
+.icons{
+    display: flex;
+    list-style: none;
+}
+.icon{
+    margin: 0 8px 16px;
+}
+.footer-text{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    
+    /* Gray 4 */
+    
+    color: #BDBDBD;
+    
+}
+@media screen and (max-width: 414px) {
+    .main-banner-desktop, .mid-banner-desktop{
+        display: none;
+    } 
+}
+@media screen and (min-width: 415px) {
+    .main-banner-mobile, .mid-banner-mobile{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .top-cards{
+        grid-template-columns: 1fr;
+        padding: 36px 26px;
+    }
+    .botom-card{
+        padding: 26px;
+    }
+    .botom-cards{
+        margin-top: 114px;
+        padding: 0 16px;
+    }
+    .botom-card-description{
+        font-size: 14px;
+    }
+    .div-wrapper{
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    .rodapé{
+        padding-bottom: 26px;
+    }
+    .footer-text{
+        max-width: 280px;
+        text-align: center;
+    }
+}
+@media  screen and (max-width: 992px) {
+    .top-infocard{
+    flex-direction: column;
+    padding: 84px 26px 158px;
+}
+.top-infocard-text{
+    margin-right: 0 0 68px;
+}
+.top-infocard-subtitle{
+    font-size: 20px;
+}
+.top-infocard-image{
+    margin: 68px 88px 158px;
+    width: 100%;
+    max-width: 240px;
+}
+.top-infocard-title{
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+.bottom-infocard{
+    flex-direction: column;
+    padding: 80px 0 136px;
+}
+.bottom-inforcard-img{
+    max-width: 596px;
+    margin: 0 0 50px;
+}
+.bottom-infocard-description{
+    padding: 0 26px;
+}
+.bottom-infocard-title{
+    font-size: 24px;
+}
+}
+@media screen and (min-width: 769) and (max-width: 1200) {
+    .top-cards{
+        grid-template-columns: repeat(2,max-content);
+        padding: 36px 26px;
+    }
+    .div-wrapper{
+        grid-template-columns: repeat(2,max-content);
+        padding: 36px 26px;
+    }
+}
+@media screen and (min-width: 769) and (max-width: 1200){
+    .botom-card-description{
+        max-width:280px;
+    }
+}
+@media screen and (min-width: 993px) and (max-width: 1280px) {
+        .top-infocard-text {
+            max-width: 520px;
+            margin-right: 70px;
+        }
+        .bottom-inforcard-img{
+            max-width: 480px;
+        }
+        .bottom-infocard-description{
+            max-width: 400px;
+        }
+}
