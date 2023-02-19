@@ -40,7 +40,7 @@ body{
     flex-direction: column;
     align-items: center;
     background: #ffffff;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0,23);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
 }
 .botom-card-image{
     display: block;
@@ -57,7 +57,6 @@ body{
 }
 .top-infocard  {
     display: flex;
-    align-items: center;
     justify-content: center;
     padding: 90px 0 96px;
 }
@@ -76,7 +75,6 @@ body{
     margin-bottom: 24px;
     text-transform: uppercase;
     font-size: 48px;
-    font-weight: 500;
 }
 .top-infocard-description{
     font-size: 16px;
@@ -97,7 +95,7 @@ body{
     flex-direction: column;
     align-items:center;
     background: #ffffff;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0,23);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
 }
 .top-card-image{
     display: block;
